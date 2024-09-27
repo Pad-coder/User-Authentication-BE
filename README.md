@@ -8,9 +8,9 @@
 
 # Endpoints:-
 
-**URI : https://user-authentication-00wq.onrender.com**
+# URI : https://user-authentication-00wq.onrender.com
 
-**1. signin:**
+**1.Signin:**
 
 <h2>POST : https://user-authentication-00wq.onrender.com/api/user/signin</h2>
 
@@ -21,7 +21,7 @@ Request body:
 "password":"password"<br>
 }
 
-**2. Login:**
+**2.Login:**
 
 <h2>POST : https://user-authentication-00wq.onrender.com/api/user/login</h2>
 
@@ -32,7 +32,7 @@ Request body:
 "password":"password"<br>
 }
 
-**3. Forget Password:**
+**3.Forget Password:**
 
 <h2>POST : https://user-authentication-00wq.onrender.com/api/user/forgot-password</h2>
 
