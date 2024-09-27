@@ -23,7 +23,7 @@ Request body:
 
 **2. Login:**
 
-# POST : https://user-authentication-00wq.onrender.com/api/user/login
+<h2>POST : https://user-authentication-00wq.onrender.com/api/user/login</h2>
 
 Request body:
 
@@ -34,7 +34,7 @@ Request body:
 
 **3. Forget Password:**
 
-# POST : https://user-authentication-00wq.onrender.com/api/user/forgot-password
+<h2>POST : https://user-authentication-00wq.onrender.com/api/user/forgot-password</h2>
 
 Request body:
 
@@ -46,7 +46,7 @@ After submit, code 8-Digit One Time Password will be sent to Your email address
 
 **4.Verify OTP:**
 
-# POST : https://user-authentication-00wq.onrender.com/api/user/verify-code
+<h2>POST : https://user-authentication-00wq.onrender.com/api/user/verify-code</h2>
 
 Enter the *-Digit One Time Password in body<br>
 if OTP verified, password will be Changed.
