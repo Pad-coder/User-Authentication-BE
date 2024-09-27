@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/', async(req,res)=>{
-    res.send('<h1>Hello welcome to server side, Refer github for endpoints :-) </h1>')
+    res.send('<h2>Hello welcome to server side, Refer github for endpoints :-)</h2> <br> GitHub : https://github.com/Pad-coder/User-Authentication-BE')
 })
 app.use("/api",Routes);
 
