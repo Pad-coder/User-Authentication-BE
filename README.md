@@ -10,7 +10,7 @@
 
 **URI : https://user-authentication-00wq.onrender.com**
 
-1. signin:
+**1. signin:**
 
 # POST : /api/user/signin
 
@@ -21,7 +21,7 @@ Request body:
 "password":"password"<br>
 }
 
-2. Login:
+**2. Login:**
 
 # POST : /api/user/login
 
@@ -32,7 +32,7 @@ Request body:
 "password":"password"<br>
 }
 
-3. Forget Password:
+**3. Forget Password:**
 
 # POST : /api/user/forgot-password
 
@@ -44,7 +44,7 @@ Request body:
 
 After submit, code 8-Digit One Time Password will be sent to Your email address
 
-4.Verify OTP:
+**4.Verify OTP:**
 
 # POST : /api/user/verify-code
 
