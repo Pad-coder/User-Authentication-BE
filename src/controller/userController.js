@@ -7,7 +7,7 @@ import { sendEmail } from "../helper/sendEmail.js";
 const signup= async(req,res)=>{
     try {
         const {email,password} = req.body;
-        if(!username || !email || !password){
+        if( !email || !password){
             return res.status(400).json({message: "Please fill in all fields"});
         }
         let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -40,7 +40,7 @@ const signup= async(req,res)=>{
         }
 
     }catch (error) {
-        console.log("Error in login controller", error.message);
+        console.log("Error in signin controller", error.message);
         res.status(500).json({
             error: "Intrenal Server Error"
         })
