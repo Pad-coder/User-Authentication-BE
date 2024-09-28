@@ -124,10 +124,10 @@ const verifyCode = async(req,res)=>{
          user.password = hashedpassword;
          user.verificationCode = null;
          await user.save();
-
+        await sendEmail(email,'Security alert','Your Password has been changed')
          res.send('Password has been reset successfully');
     } catch (error) {
-        console.log("error in verify token controller", error.message);
+        console.log("error in verify code controller", error.message);
         res.status(500).json({
             error: "Internal Server Error"
         })
